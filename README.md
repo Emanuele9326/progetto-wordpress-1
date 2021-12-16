@@ -12,7 +12,7 @@
    <li><a href="#descrizione">Descrizione</a>
      <ul>
         <li><a href="#struttura-repository">Struttura Repository</a></li>
-        <li><a href="#Download-e-testare-app-in-locale">Download e testare app in locale</a></li>
+        <li><a href="#Download-e-testare-sito-in-locale">Download e testare sito in locale</a></li>
       </ul>
     </li>
    <li><a href="#licenza">Licenza</a></li>
@@ -48,42 +48,56 @@ In questo progetto si è realizzato un sito per un'attività commerciale, in par
 ### Struttura Repository
 
 <h4>Cartella D&S </h4>
- E' la cartella del tema che è stato costruito su misura 
+ Contiene il tema realizzato su misura per questo progetto.
     
 <h4>File progetto-wordpress.wpress</h4>
- File da importare su wordpress installato in locale per eseguire il sito in locale
+ Questo file è stato generato dal plugin "All-in-One Wp Migration".
+ Può essere utilizzato per importare il sito online, oppure per 
+ testare il sito in locale utilizzando un'applicazione di sviluppo Wordpress locale.
 
 
 
-### Funzionalità dell'applicazione
+### Tema D&S
+  ![](img-README/tema ds.png) 
+   <br>
+  Il tema D&S è un tema one page.
+  Per realizzare questo tema è stato utilizzato:
+    <ol>
+      <li>framework bootstrap;</li>
+      <li>plugin di wordpress:
+        <ul>
+          <li>Smart Slider 3: utilizzato per creare il carousel e la gallery</li>
+          <li>Shortcodes Ultimate: utilizzato per generare shortcode</li>
+          <li>Contact Form 7: per creare il Form di contatti.</li>
+        </ul>
+      </li>
+    </ol>
+  - Cartella "su-posts-templates": contiene il file 'my-template.php' 
+    utilizzato dal plugin 'Shortcodes Ultimate' per visualizzare i 'singol-post'.
 
 
-### Download e testare app in locale
+### Download e testare sito in locale
 
-- Sul proprio dispositivo è necessario installare: 
-   - Nodo.js
-   - gestore di pachetti npm. 
-Le applicazioni Angular, Angular CLI e Angular dipendono dai pachetti npm per molte caratteristiche e funzioni.
+- Sul proprio dispositivo è necessario:
+   - Configurare sulla macchina uno stack AMP locale. Nel caso di WordPress, AMP sta per Apache, MySQL, PHP.
+     Per esempio 'Local' è l'applicazione di sviluppo Wordpress locale utilizzata per sviluppare questo sito.
+   - installazione di Worpress.
+  
 
-L'app può essere testata in locale eseguendo i seguenti passaggi:
+Il sito può essere testato in locale eseguendo i seguenti passaggi:
 
 - Clonare il repository del progetto in locale 
 
-- Installare le "dependencies" e "devDependencies" che sono riportate nel file package.json tramite il comando:
-  <b>npm install <b>
+- Installare su wordpress il plugin 'All-in-One WP Migration'.
+- Tramite il plugin 'All-in-One WP Migration'importare il file 'progetto-wordpress.wpress'
   
-  ![](img-README/dependencies.png) 
-  ![](img-README/devdependencies.png)
+  ![](img-README/importa file.png) 
+  ![](img-README/importazione2.png)
 
   
 
-- Testare l'app in locale tramite il comando ng serve.
-Il comando "ng serve" crea e serve l'app, ricostruendola in base alle modifiche ai file .
-Una volta che l'app è stata creata e servita andare al seguente link <a>http://localhost:4200/**</a> oppure cliccare sul link riportato nel terminale, vedere immagine seguente.
+- Testare il sito in locale.
 
- ![](img-README/terminale.png)
+ ![](img-README/test sito.png)
 
-## Licenza
-
-    Distribuito con licenza MIT. Vedere "LICENSE" per ulteriori informazioni.
 
