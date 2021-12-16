@@ -59,7 +59,7 @@ In questo progetto si è realizzato un sito per un'attività commerciale, in par
 
 ### Tema D&S
 
-![](img-README/temads.png) 
+ ![](img-README/temads.png) 
    <br>
   Il tema D&S è un tema one page.
   Per realizzare questo tema è stato utilizzato:
@@ -99,6 +99,6 @@ Il sito può essere testato in locale eseguendo i seguenti passaggi:
 
 - Testare il sito in locale.
 
- ![](img-README/test sito.png)
+ ![](img-README/testsito.png)
 
 
