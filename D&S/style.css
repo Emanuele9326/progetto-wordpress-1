@@ -1,0 +1,288 @@
+/*
+Theme Name: D&S
+Theme URI: 
+Author: Emanuele Marra
+Author URI: 
+Description: D&S tema per progetto Start2impact
+Tags: food-and-drink,grid-layout,custom-header,custom-logo,custom-menu
+Version: 0.1
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: d&s
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('font/montserrat-medium-webfont.woff2') format('woff2'), url('font/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'montserratmedium', sans-serif;
+}
+
+.navbar {
+    background-color: #f38405b4;
+}
+
+.nav-link>a {
+    font-weight: bold;
+    color: white;
+}
+
+.imp_carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.chiSiamo-separator {
+    margin-top: 35em;
+}
+
+.category-chi_siamo {
+    text-align: center;
+}
+
+.bottom_chisiamo {
+    width: 100%;
+}
+
+.bottom_chisiamo_img {
+    display: block;
+    margin: auto;
+}
+
+.service {
+    text-align: center;
+}
+
+.service-1 {
+    margin: auto;
+}
+
+.service_background-color {
+    padding: 10px;
+    background-color: #f38405b4;
+}
+
+.wp-block-cover__inner-container {
+    background-color: #f38405b4;
+}
+
+.row_perOgniEsigenza {
+    margin-top: 10px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.contatti {
+    margin-top: 50px;
+}
+
+#su-post-258 {
+    text-align: start;
+}
+
+.wpcf7-form {
+    padding-left: 10px;
+}
+
+.wpcf7-form>p {
+    font-family: 'montserratmedium', sans-serif;
+}
+
+.wpcf7-submit {
+    padding: 7px;
+    width: 100%;
+    background-color: #f38405;
+}
+
+.panel {
+    text-align: center;
+    font-size: medium;
+}
+
+label {
+    width: 100%;
+}
+
+.wpcf7-form-control-wrep {
+    width: 100%;
+}
+
+.wpcf7-textarea {
+    width: 100%;
+    height: 5em;
+}
+
+.wpcf7-text {
+    width: 100%;
+}
+
+.map {
+    height: 500px;
+}
+
+.header-footer-group {
+    width: 100%;
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+
+.footer-credits {
+    display: flex;
+    flex-direction: row;
+}
+
+.cookie {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-inner {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.footer-copyright>a {
+    color: white;
+}
+
+.cookie-policy>a {
+    color: white;
+}
+
+.cookie-privicy>a {
+    color: white;
+}
+
+.widget-content {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.wp-block-columns {
+    margin-bottom: 0;
+    margin-top: 1em;
+}
+
+.wp-block-social-links {
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+.style-iconsSocial {
+    margin: 0;
+}
+
+.form_header {
+    font-size: small;
+    color: rgb(66, 64, 64);
+}
+
+@media (max-width:576px) {
+    .style-mobile {
+        flex-direction: column;
+        align-items: center;
+    }
+    .button {
+        width: 100%;
+        display: block;
+        float: right;
+    }
+    .imp_carousel {
+        position: static;
+        display: block;
+    }
+    .container-mobile {
+        max-width: 577px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbar {
+        width: 100%;
+        position: static;
+        background-color: #f38405;
+    }
+    .navbar-collapse {
+        margin-right: 2em;
+    }
+    .chiSiamo-separator {
+        margin-top: 0;
+    }
+    .who-we-are_mobile {
+        margin-top: 0;
+    }
+    .d-grid {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .form_contact {
+        margin-top: 2em;
+    }
+    .map {
+        height: 300px;
+    }
+}
+
+
+/*Tablet*/
+
+@media (min-width:577px) and (max-width:992px) {
+    .who-we-are_mobile {
+        margin-top: 0;
+    }
+    .chiSiamo-separator {
+        margin-top: 0;
+    }
+    .navbar {
+        width: 100%;
+        position: static;
+        background-color: #f38405;
+    }
+    .container-mobile {
+        max-width: 992px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .imp_carousel {
+        position: static;
+        display: block;
+    }
+}
+
+@media (max-width: 750px) {
+    .section-inner {
+        flex-direction: column;
+        justify-content: left;
+    }
+}
