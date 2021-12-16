@@ -58,7 +58,7 @@ In questo progetto si è realizzato un sito per un'attività commerciale, in par
 
 
 ### Tema D&S
-  ![](img-README/tema ds.png) 
+  ![](img-README/temads.png) 
    <br>
   Il tema D&S è un tema one page.
   Per realizzare questo tema è stato utilizzato:
@@ -91,13 +91,13 @@ Il sito può essere testato in locale eseguendo i seguenti passaggi:
 - Installare su wordpress il plugin 'All-in-One WP Migration'.
 - Tramite il plugin 'All-in-One WP Migration'importare il file 'progetto-wordpress.wpress'
   
-  ![](img-README/importa file.png) 
+  ![](img-README/importafile.png) 
   ![](img-README/importazione2.png)
 
   
 
 - Testare il sito in locale.
 
- ![](img-README/test sito.png)
+ ![](img-README/testsito.png)
 
 
