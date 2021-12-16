@@ -58,7 +58,12 @@ In questo progetto si è realizzato un sito per un'attività commerciale, in par
 
 
 ### Tema D&S
+<<<<<<< HEAD
   ![](img-README/temads.png) 
+=======
+
+ ![](img-README/temads.png) 
+>>>>>>> e04222755488e1bb00a5de786654409e0ad2d222
    <br>
   Il tema D&S è un tema one page.
   Per realizzare questo tema è stato utilizzato:
