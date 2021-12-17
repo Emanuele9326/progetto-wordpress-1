@@ -15,7 +15,7 @@
         <li><a href="#Download-e-testare-sito-in-locale">Download e testare sito in locale</a></li>
       </ul>
     </li>
-   <li><a href="#licenza">Licenza</a></li>
+  
   <ol>
 </details>
 
